@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMMUNITY SERVICE PROJECT</title>
+  <style type="text/css">
+.btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  position:absolute;
+  box-shadow:teal;
+}
+header{
+  font-size: 60px;
+  font-family: arial sans-serif;
+  color: orangered;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 3px 3px 6px yellow;
+}
+.container{
+  position:relative;
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  padding-right: 45px;
+}
+body{
+  background-image: url("https://uploads-ssl.webflow.com/601d9af1ac96921333a10827/607f27be23dde822a8bf01ab_specials-22.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.main{
+  align-content: flex-end;
+}
+.btn:hover {
+  background-color: sandybrown;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 790px) {
+  .btn {
+   width:150px;
+   font-size: 14px;
+   position: static;
+
+  }
+  .container{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+    margin-bottom:200px;
+  }
+  header{
+    font-size: 40px;
+  }
+}
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <a href="home.html">
+  <button class="btn">LEARN MORE</button></a>
+
+</div>
+</body>
+</html>
